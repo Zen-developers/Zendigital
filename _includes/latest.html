@@ -1,0 +1,58 @@
+                <div class="section-header p-r-4-xs p-l-4-xs p-r-6-m p-l-6-m p-r-7-xxl p-l-7-xxl site-width">
+                  <div class="section-header__wrapper dsp-flex-xs grd-just-space-between-xxs grd-algn-flex-end-xs p-t-2-xs p-b-4-xs p-t-4-m p-b-4-m">
+                      <div>
+                          <h3 class="section-header__wrapper__title hed-l m-b-0-xs">Latest
+                          </h3>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="grid grd m-b-6-xs site-width p-l-7-xxl p-r-7-xxl p-l-4-xs p-r-4-xs p-l-6-m p-r-6-m">
+
+                  <div class="grid__wrapper grd-row">
+                    {% for post in site.categories.latest %}
+                      <a href="{{post.url | relative }}" class="grid__wrapper__card grd-col col-12-xs col-6-m col-3-hd dsp-block-xs p-t-3-xs col-4-xl" display-type="long-form">
+                       
+                        <div class="grid__wrapper__card__topic p-b-2-xs hed-xs dsp-block-xs">
+                        
+                          <div class="canonical__topic hed-xxs dsp-inline-xs">
+                        
+                            <span>{{post.topic}}</span>
+                        
+                          </div>
+                        
+                        </div>
+                        
+                        <div class="grid__wrapper__card__thumbnail__wrapper">
+                    
+                          <div class="grid__wrapper__card__thumbnail">
+                    
+                            <picture>
+                              <source srcset="{{post.image}}" media="(min-width: 400px; min-height:700px)">
+                              <source srcset="{{post.image}}" media="(min-width: 0px)">
+                              <img priority="2" class="" src="{{post.image}}">
+                            </picture>
+
+                          </div>
+
+                        </div>
+
+                        <div class="grid__wrapper__card__text p-t-3-m p-b-6-m p-r-0-m p-l-0-m p-r-0-m p-t-4-xs p-b-4-xs">
+                        
+                          <h2 class="grid__wrapper__card__text__title hed-m m-b-2-xs">{{post.title}}</h2>
+
+                        </div> 
+
+                      </a>
+
+                    {% endfor %}
+
+                  </div>
+
+                  <div class="story-button-wrapper p-r-4-xs p-l-4-xs p-r-6-m p-l-6-m p-r-7-xl p-l-7-xl m-b-4-xs m-b-7-l text-center-xs site-width">
+                    <a class="more-stories-button__link" href="/en_us/latest?page=2">
+                        <div class="more-stories-button btn btn-branded dsp-inline-block-xs">load more stories</div>
+                    </a>
+                  </div>
+
+                </div>

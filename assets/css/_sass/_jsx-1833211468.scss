@@ -1,0 +1,4 @@
+.canonical__date{color:#777777;text-transform:none;}
+.canonical__date:before{display:inline;content:' / ';}
+.canonical__date--no-divider:before{content:'';}
+.homepage .canonical__date{display:inline;}

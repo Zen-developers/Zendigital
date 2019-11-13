@@ -1,0 +1,10 @@
+.navbar__footer{min-height:375px;background-color:#000000;}
+.navbar__footer .navbar__social-section .clearfix:after{content:"";display:table;clear:both;}
+.navbar__footer .navbar__social-section li{display:inline-block;}
+.navbar__footer .navbar__social-section li:last-child{margin-right:0;}
+.navbar__footer__logo img{height:20px;}
+.navbar__footer__items{list-style-type:none;}
+.navbar__footer__items li{text-transform:lowercase;}
+.navbar__footer__items li a{color:#bbbbbb;-webkit-text-decoration:none;text-decoration:none;}
+.navbar__footer__items li a:hover,.navbar__footer__items li a:active,.navbar__footer__items li a:focus{color:#ffffff;}
+.navbar__footer__copyright{color:#bbbbbb;text-transform:uppercase;}

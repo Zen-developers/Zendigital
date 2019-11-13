@@ -1,0 +1,17 @@
+.nav__search-bar{height:50px;border:1px solid #D8D8D8;}
+.nav__search-bar .search-input{border:none;border-radius:0;-webkit-appearance:none;background-color:#ffffff;text-transform:lowercase;}
+.nav__search-bar .search-input::-webkit-input-placeholder{color:#D8D8D8;}
+.nav__search-bar .search-input::-moz-placeholder{color:#D8D8D8;}
+.nav__search-bar .search-input:-ms-input-placeholder{color:#D8D8D8;}
+.nav__search-bar .search-input::placeholder{color:#D8D8D8;}
+.nav__search-bar .search-input:focus{outline:none;}
+.nav__search-bar .search-icon{width:16px;position:relative;}
+.search-icon{cursor:pointer;}
+.search-results__search-bar{border:1px solid #ebebeb;position:relative;background-color:#fff;color:#000000;}
+.search-results__search-bar .search-input{border:none;background-color:transparent;text-transform:lowercase;}
+.search-results__search-bar .search-input:focus,.search-results__search-bar .search-input:active{outline:none;}
+.search-results__search-bar .search-icon{width:32px;}
+@media only screen and (min-width:850px){.search-results__search-bar .search-icon{width:40px;}}
+.search-results__search-bar--v2{border:0;border-bottom:solid 1px #000;}
+.search-results__search-bar--v2 .search-icon__wrapper .search-icon{width:24px;}
+@media only screen and (min-width:700px){.search-results__search-bar--v2 .search-icon__wrapper .search-icon{width:40px;}}

@@ -1,0 +1,144 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="ssr" data-template="homepage" data-gr-c-s-loaded="true">
+
+    <div id="root" class="zen nt-amp">
+
+      <div id="Z3N" class="wrap">
+
+        <main class="main-content" id="main-content">
+			
+        	{% for post in site.posts limit: 1 %}
+
+				<div data-type="article-list" class="article-list">
+
+					<div data-type="article-wrapper" class="article-wrapper">
+
+						<div class="article-page m-b-6-xs" id="article_5d6542253e390300092ca5a4">
+
+							<article class="long-form-article">
+								
+								<div class="long-form-article__lede-image col-12-xs">
+
+									<picture>
+										<source srcset="{{post.image | relative}}">
+										<source srcset="{{post.image | relative}}">
+										<source srcset="{{post.image | relative}}">
+										<source srcset="{{post.image | relative}}">
+										<source srcset="{{post.image | relative}}">
+										<source srcset="{{post.image | relative}}">
+										<img priority="2" data-src="{{post.image | relative}}" class=" " src="{{post.image | relative}}">
+									</picture>
+
+								</div>
+
+								<div class="long-form-article__content">
+
+									<div class="long-form-article__content">
+
+										<div class="long-form-article-header-container">
+
+											<div class="long-form-article__content__header p-l-4-xs p-r-4-xs p-t-4-xs">
+
+												<div class="long-form-article__content__header--prehead">
+
+													<div class="long-form-article__content__header--prehead--flexwrap col-12-xs dsp-flex-xs grd-just-flex-end-xs">
+
+														<div></div>
+
+													</div>
+
+												</div>
+
+												<div class="long-form-article__content__header__inner m-l-aut-xs m-r-aut-xs m-l-0-xl m-r-0-xl">
+													
+													<div class="article__byline bod-xs dsp-flex-xs grd-algn-flex-start-xs">lxkfljsdlkfjglksjlkfjskldfj
+
+														<div>
+															
+															<a class="primary-topic primary-topic--text long-form-article__byline__topic dsp-block-xs dsp-inline-block-m hed-xs" href="">lsdfkgsjdl
+																
+															</a>
+
+														</div>
+
+															<div class="dsp-none-xs dsp-block-m m-l-2-xs m-r-2-xs pipe">
+															kdsfjksdgj
+															</div>
+
+														<div class="dsp-none-xs dsp-block-m">
+
+															<div class="bod-xs dsp-flex-xs grd-algn-flex-start-xs article__contributions">
+																
+																<div class="article__contributions__contributors">
+																	
+																	<span class="contributor__by">
+																		kdfhksdfjks
+																	</span>
+
+																	<a class="contributor__link hed-xs" title="" href="">sfdgjsdkfg</a>
+
+																</div>
+
+																<div class="m-l-2-xs m-r-2-xs pipe">
+																kdfhkdfkgf
+																</div>
+
+																<div class="article__contributions__publishdate">
+																	
+																		sdjhfjsfdj
+
+																</div>
+
+															</div>
+															
+														</div>
+														
+													</div>
+
+													<h1 class="article__title hed-xxl m-t-3-xs m-b-4-xs m-b-5-m">
+														jkdsfjsdkfjgdks
+													</h1>
+
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>					
+
+								</div>
+
+							</article>
+							
+						</div>
+
+					</div>
+
+				</div>
+
+			{% endfor %}
+
+			 {{ content }}	
+
+		</main>
+
+		{%- include header.html -%}
+
+	  </div>
+
+    </div>
+
+  </body>
+
+			
+
+			 
+

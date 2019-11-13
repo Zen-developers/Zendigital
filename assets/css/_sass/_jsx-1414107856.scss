@@ -1,0 +1,9 @@
+.navbar__section{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;}
+.navbar__section__items--heading{color:#000000;text-transform:uppercase;}
+.navbar__section--tier-1,.navbar__section--tier-2,.navbar__section--upsell{color:#000000;text-transform:none;}
+.navbar__section--tier-1 .navbar__section__item a,.navbar__section--tier-2 .navbar__section__item a,.navbar__section--upsell .navbar__section__item a{color:#000000;}
+.navbar__section--tier-1 .navbar__section__item a:focus,.navbar__section--tier-2 .navbar__section__item a:focus,.navbar__section--upsell .navbar__section__item a:focus,.navbar__section--tier-1 .navbar__section__item a:hover,.navbar__section--tier-2 .navbar__section__item a:hover,.navbar__section--upsell .navbar__section__item a:hover{color:#E6297A;}
+.navbar__section--channels img{width:32px;margin-right:12px;vertical-align:middle;}
+.navbar__section__items{list-style-type:none;}
+.navbar__section__items li{margin-bottom:10px;}
+.navbar__section__items--collapsed{overflow:hidden;height:0;}
