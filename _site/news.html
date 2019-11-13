@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<h1>News</h1>
+
+
+<div class="grid grd m-b-6-xs site-width p-l-7-xxl p-r-7-xxl p-l-4-xs p-r-4-xs p-l-6-m p-r-6-m">
+  
+    <div class="grid__wrapper grd-row">
+
+      {% for news in site.posts %}
+
+        <a href="{{post.url | relative }}" class="grid__wrapper__card grd-col col-12-xs col-6-m col-3-hd dsp-block-xs p-t-3-xs col-4-xl" display-type="long-form">
+         
+          <div class="grid__wrapper__card__topic p-b-2-xs hed-xs dsp-block-xs">
+          
+            <div class="canonical__topic hed-xxs dsp-inline-xs">
+          
+              <span>{{post.topic}}</span>
+          
+            </div>
+          
+          </div>
+          
+          <div class="grid__wrapper__card__thumbnail__wrapper">
+      
+            <div class="grid__wrapper__card__thumbnail">
+      
+              <picture>
+                <source srcset="{{post.image}}" media="(min-width: 400px; min-height:700px)">
+                <source srcset="{{post.image}}" media="(min-width: 0px)">
+                <img priority="2" class="" src="{{post.image}}">
+              </picture>
+
+            </div>
+
+          </div>
+
+          <div class="grid__wrapper__card__text p-t-3-m p-b-6-m p-r-0-m p-l-0-m p-r-0-m p-t-4-xs p-b-4-xs">
+          
+            <h2 class="grid__wrapper__card__text__title hed-m m-b-2-xs">{{post.title}}</h2>
+
+          </div> 
+
+        </a>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
