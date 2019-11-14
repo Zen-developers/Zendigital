@@ -845,7 +845,7 @@
         ledeTopicTextTransform: "uppercase",
         ledeContributorColor: d.black,
         heroTitleTextTransform: "none",
-        heroDekColor: d.white,
+        zenDekColor: d.white,
         heroContributorColor: d.white,
         newsletterBorderTopColor: e=>e.brand.accentColor,
         newsletterHeadingColor: d.black,
