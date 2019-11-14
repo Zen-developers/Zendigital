@@ -2728,7 +2728,7 @@
       , b = `${n.default}/logos/channel-slider/zen_news.svg`
       , _ = `${n.default}/logos/channel-slider/zen_sports.svg`
       , y = `${n.default}/logos/channel-slider/zen.svg`
-      , w = `${n.default}/logos/zen_logo_black.svg`
+      , w = `/https://github.com/Zen-developers/zendigital.github.io/assets/img/logos/zen_logo_black.svg`
       , k = `${n.default}/logos/zen-footer-logo.svg`
       , S = `${n.default}/logos/channel-slider/zenland.svg`
       , x = `${n.default}/logos/zen-video-logo-white.svg`
