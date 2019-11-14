@@ -844,9 +844,9 @@
         ledeTopicColor: "inherit",
         ledeTopicTextTransform: "uppercase",
         ledeContributorColor: d.black,
-        superLedeTitleTextTransform: "none",
-        superLedeDekColor: d.white,
-        superLedeContributorColor: d.white,
+        heroTitleTextTransform: "none",
+        heroDekColor: d.white,
+        heroContributorColor: d.white,
         newsletterBorderTopColor: e=>e.brand.accentColor,
         newsletterHeadingColor: d.black,
         newsletterHeadingTextTransform: "normal",
@@ -1321,7 +1321,7 @@
         __CURRENT_SITE: {},
         __CURRENT_LOCALE: {},
         __NAV_LINKS: {},
-        __V1C3: {
+        __Z3N: {
             geoIPData: {}
         }
     }
@@ -1794,7 +1794,7 @@
     ;
     t.updateGPTCorellatorValue = m;
     const p = (e,{path: t, pageData: o})=>{
-        const {__V1C3: a} = window;
+        const {__Z3N: a} = window;
         a && a.appHooks && a.appHooks.emit(e, {
             path: t,
             data: o
@@ -5419,7 +5419,7 @@
     var i = ({siteName: e, locale: t, styles: o, siteSettings: a})=>{
         const i = a && a[e] || {};
         return n.default.createElement("div", {
-            id: "V1C3",
+            id: "Z3N",
             className: "wrap application-error"
         }, n.default.createElement(r.NotFound, {
             route: {
@@ -7183,11 +7183,11 @@
             }),
             this.setMetaList = e=>(this.eventMetaList = e,
             this),
-            this.getGeoData = async()=>void 0 === window.__V1C3 ? Promise.resolve({
+            this.getGeoData = async()=>void 0 === window.__Z3N ? Promise.resolve({
                 code: "US"
-            }) : window.__V1C3.geoIPData ? Promise.resolve(window.__V1C3.geoIPData.data.country) : window.__V1C3.getGeoIPData(window).then(e=>void 0 === e ? {
+            }) : window.__Z3N.geoIPData ? Promise.resolve(window.__Z3N.geoIPData.data.country) : window.__Z3N.getGeoIPData(window).then(e=>void 0 === e ? {
                 code: "US"
-            } : (window.__V1C3.geoIPData = e,
+            } : (window.__Z3N.geoIPData = e,
             e.data.country)),
             this.identify = async e=>{
                 if (n && window.dataLayer) {
@@ -8082,7 +8082,7 @@
         if (void 0 === e)
             return !1;
         const t = (0,
-        l.getFromWindow)("__V1C3")
+        l.getFromWindow)("__Z3N")
           , o = (0,
         n.default)(t, "geoIPData.data.country.code", (0,
         i.getCookieByName)("X-GeoIP-Country-Code"));
@@ -8188,8 +8188,8 @@
         let F;
         F = "video" === e ? E.default : "viceland" === e ? C.default : x.default;
         const V = t.pageData;
-        window.__V1C3.appHooks = new T.default,
-        window.__V1C3.getGeoIPData = T.getGeoIPData,
+        window.__Z3N.appHooks = new T.default,
+        window.__Z3N.getGeoIPData = T.getGeoIPData,
         window.__DEBUG_LEVEL = s.debug ? Number(s.debug) : 0,
         void 0 !== window.history && (window.history.scrollRestoration = "auto"),
         (0,
@@ -8241,7 +8241,7 @@
         }
         )
     }
-    window.__V1C3.geoIPData = (0,
+    window.__Z3N.geoIPData = (0,
     T.getGeoIPDataSync)(),
     j(window.__SITE_NAME)
 }
@@ -9409,7 +9409,7 @@
                     const f = (0,
                     S.default)(m && m.links ? m.links : null, t ? t.url_fragment : "en_us", e);
                     return n.default.createElement("div", {
-                        id: "V1C3",
+                        id: "Z3N",
                         className: (0,
                         r.default)("wrap", {
                             "app--sticky-nav": Ie && d,
@@ -10422,7 +10422,7 @@
             ledeSummaryColor: r.default.colors.midBlack2,
             ledeSummaryHoverColor: r.default.colors.midBlack2,
             linkButtonFontStack: "",
-            superLedeTitleTextTransform: "none",
+            heroTitleTextTransform: "none",
             upsellFirstLineMaxWidth: "280px",
             topicPageDekFontColor: "",
             siteHeaderLogoWidthS: l.SMALL.width + "px",
@@ -11498,7 +11498,7 @@
             largeGridSummaryColor: r.default.colors.black,
             ledeSummaryColor: r.default.colors.black,
             ledeSummaryHoverColor: r.default.colors.black,
-            superLedeTitleTextTransform: "none",
+            heroTitleTextTransform: "none",
             canonicalTopicColor: "#E6297A",
             newsletterSubheadingTextTransform: "lowercase",
             newsletterBorderTopColor: r.default.colors.white,
@@ -11832,7 +11832,7 @@
             ledeSummaryColor: r.default.colors.midBlack2,
             ledeSummaryHoverColor: r.default.colors.midBlack2,
             linkButtonFontStack: "",
-            superLedeTitleTextTransform: "none",
+            heroTitleTextTransform: "none",
             upsellFirstLineMaxWidth: "280px",
             topicPageDekFontColor: "",
             siteHeaderLogoWidthS: l.SMALL.width + "px",
