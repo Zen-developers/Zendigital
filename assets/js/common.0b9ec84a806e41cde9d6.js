@@ -2995,7 +2995,7 @@
     e.exports = {
         staging: a,
         development: a,
-        production: "https://vice-web-statics-cdn.vice.com",
+        production: "https://zen-developers.github.io/zendigital.github.io",
         zeit: a,
         sneak: a,
         local: a
@@ -6713,17 +6713,17 @@
             defaultAdUnitPath: "/16916245/oo_web/garage",
             ampAdUnitPath: "/16916245/oo_amp/garage"
         },
-        "i-d": {
-            name: "i-D",
-            description: "Content by VICE",
-            url: "https://i-d.vice.com",
+        "zen": {
+            name: "Zen",
+            description: "Content by ZEN",
+            url: "https://zen-developers.github.io/zendigital.github.io/",
             thirdPartyScriptConfig: n.default["i-d"],
             locales: [],
-            logos: r.default["i-d"],
+            logos: r.default["zen"],
             logoSizes: {
-                large: Object.assign({}, i.default["i-d"].LARGE),
-                small: Object.assign({}, i.default["i-d"].SMALL),
-                signature: Object.assign({}, i.default["i-d"].SIGNATURE)
+                large: Object.assign({}, i.default["zen"].LARGE),
+                small: Object.assign({}, i.default["zen"].SMALL),
+                signature: Object.assign({}, i.default["zen"].SIGNATURE)
             },
             navLinks: {},
             defaultAdUnitPath: "/16916245/oo_web/i-d",
