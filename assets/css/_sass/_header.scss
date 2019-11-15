@@ -24,18 +24,6 @@ header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd
 }
 
 
-
-body.home header:not(.scrolled),body.archive.category-music header:not(.scrolled),body.archive.post-type-archive-cracktv header:not(.scrolled),body.archive.post-type-archive-shows header:not(.scrolled),body.archive.post-type-archive-festivals header:not(.scrolled),body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled),body.single-cracktv header:not(.scrolled){
--webkit-box-shadow:inset 0 32px 30px -9px rgba(0,0,0,.3);
--moz-box-shadow:inset 0 32px 30px -9px rgba(0,0,0,.3);
-box-shadow:inset 0 32px 30px -9px rgba(0,0,0,.3);
-background:transparent
-}
-
-body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar__logo,body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar-nav-toggle{
-opacity:0
-}
-
 body.home header:not(.scrolled) .navbar__logo__reversed,body.home header:not(.scrolled) ~ .navbar-header .navbar-toggle__reversed,body.archive.category-music header:not(.scrolled) .navbar__logo__reversed,body.archive.category-music header:not(.scrolled) .navbar-toggle__reversed,body.archive.post-type-archive-cracktv header:not(.scrolled) .navbar__logo__reversed,body.archive.post-type-archive-cracktv header:not(.scrolled) .navbar-toggle__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar__logo__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar-toggle__reversed,body.single-cracktv header:not(.scrolled) .navbar__logo__reversed,body.single-cracktv header:not(.scrolled) .navbar-toggle__reversed{opacity:1}body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar__shares,body.single-cracktv header:not(.scrolled) .navbar__shares{
 opacity:0;z-index:-1
 }
