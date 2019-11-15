@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A Manifesto of a Youth Activist
-image: /assets/img/amoaya.jpeg
+image: assets/img/amoaya.jpeg
 category: latest
 topic: Culture
 ---

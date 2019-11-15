@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  We Are All Unconciously Inventing in the Cigaratte Economy
-image: /assets/img/waauiitce.jpeg
+image: assets/img/waauiitce.jpeg
 category: latest
 topic: news
 ---

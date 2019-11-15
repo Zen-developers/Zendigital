@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basquiat-isms Ten of Jean-Michel’s Best Quotes
-image: /assets/img/bitojmbq.jpeg
+image: assets/img/bitojmbq.jpeg
 category: latest
 topic: art & culture
 ---

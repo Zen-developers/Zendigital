@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TSA and Adidas Collaboration
-image: /assets/img/taac.jpeg
+image: assets/img/taac.jpeg
 category: latest
 topic: fashion
 ---

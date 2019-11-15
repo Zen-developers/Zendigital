@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 6 Ways to Thrift for Contemporary Streetwear
-image: /assets/img/6wttfcs.jpeg
+image: assets/img/6wttfcs.jpeg
 category: latest
 topic: Culture
 ---

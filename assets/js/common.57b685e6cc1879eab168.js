@@ -13569,7 +13569,11 @@
     t.createApolloClient = ()=>{
         return new a.ApolloClient({
             link: c.concat(new r.HttpLink({
+<<<<<<< Updated upstream
                 uri: "/api/v1/graphql",
+=======
+                url: "/api/v1/graphql",
+>>>>>>> Stashed changes
                 useGETForQueries: !0
             })),
             cache: new n.InMemoryCache({

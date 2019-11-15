@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instagram Photographer Sexual Assault
-image: /assets/img/ipsa.jpeg
+image: assets/img/ipsa.jpeg
 category: latest
 topic: news
 ---
