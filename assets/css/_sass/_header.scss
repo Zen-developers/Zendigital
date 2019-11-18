@@ -24,7 +24,7 @@ header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd
 }
 
 
-body.home header:not(.scrolled) .navbar__logo__reversed,body.home header:not(.scrolled) ~ .navbar-header .navbar-toggle__reversed,body.archive.category-music header:not(.scrolled) .navbar__logo__reversed,body.archive.category-music header:not(.scrolled) .navbar-toggle__reversed,body.archive.post-type-archive-cracktv header:not(.scrolled) .navbar__logo__reversed,body.archive.post-type-archive-cracktv header:not(.scrolled) .navbar-toggle__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar__logo__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar-toggle__reversed,body.single-cracktv header:not(.scrolled) .navbar__logo__reversed,body.single-cracktv header:not(.scrolled) .navbar-toggle__reversed{opacity:1}body.single-article:not(.album-reviews):not(.premieres) header:not(.scrolled) .navbar__shares,body.single-cracktv header:not(.scrolled) .navbar__shares{
+body.home header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__logo__reversed,body.home header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) ~ .navbar-header .navbar-toggle__reversed,body.archive.category-music header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__logo__reversed,body.archive.category-music header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar-toggle__reversed,body.archive.post-type-archive-cracktv header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__logo__reversed,body.archive.post-type-archive-cracktv header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar-toggle__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__logo__reversed,body.single-article:not(.album-reviews):not(.premieres) header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar-toggle__reversed,body.single-cracktv header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__logo__reversed,body.single-cracktv header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar-toggle__reversed{opacity:1}body.single-article:not(.album-reviews):not(.premieres) header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__shares,body.single-cracktv header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) .navbar__shares{
 opacity:0;z-index:-1
 }
 
@@ -1067,11 +1067,11 @@ span.ad-tag {
 	max-width: 352px;
 }
 
-body.long-reads header:not(.scrolled) ~ .navbar-header .navbar-toggle__reversed {
+body.long-reads header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) ~ .navbar-header .navbar-toggle__reversed {
 	opacity: 1;
 }
 
-body.aesthetic header:not(.scrolled) ~ .navbar-header .navbar-toggle__reversed {
+body.aesthetic header:not(.site-header.site-header--home.site-header__container.dsp-flex-xs grd-algn-center-xs.col-12-xs.p-l-4-xs.p-l-5-m.p-r-4-xs.p-r-5-m.visible-bottom-edge.hed-s) ~ .navbar-header .navbar-toggle__reversed {
 	opacity: 1;
 }
 
