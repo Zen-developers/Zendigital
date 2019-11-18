@@ -27,15 +27,13 @@
   
   <script type="text/javascript">
     
-  var oldPageYOffset = 0;
-  $(window).scroll(function(){
-    if (window.pageYOffset != oldPageYOffset)
-    {
-      oldPageYOffset = window.pageYOffset;
-      console.log("Window scrolling changed");
-    }
-  });
-
+   var scroll = 0;
+    $(window).scroll(function(){
+                    if (scroll>0){
+                    console.log("Scroll Fired");
+                    }
+                    scroll++;
+    });
   </script>
     
   <!-- global styles -->
