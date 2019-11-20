@@ -9,16 +9,16 @@ if( navigator.userAgent.match(/iP(hone|od|ad)/i) ) {
 
 //navigation toggle funcs
 function openNav() {
-    $(".navbar-nav-main").addClass("nav-open");
+    $(".navbar.navbar--").addClass("closed");
     $(".navbar-overlay").addClass("overlay-open");
 }
 function closeNav() {
-    $(".navbar-nav-main").removeClass("nav-open");
+    $(".navbar.navbar--").removeClass("open");
     $(".navbar-overlay").removeClass("overlay-open");  
 }
 
 //navigation toggle calls
-$(".navbar-nav-toggle").on("click", openNav);
+$(".hamburger-icon.site-header__nav-trigger").on("click", openNav);
 $(".navbar-close").on("click", closeNav);
 $(".navbar-overlay").on("click", closeNav);
 
