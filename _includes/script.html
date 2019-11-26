@@ -77,25 +77,24 @@
 (function(){
 	'use strict';
 
-	var newElement= document.createElement('div');
-	newElement.style.cssText = "width:200px;";
+var cover = document.getElementsById('homepage');
 
-	var div = document.getElementByClass('homepage');
+//select elements
+for (var i = 0; i < cover.length; i++) {
+    var current = cover[i];
 
-	
-	//list.appendChild(newElement);
+    //alert(selectListElements[i].name);
+    if (current.dontReplace != 'true') {
+        var newNode  = document.createElement('div');
+        var nodeText = current.options[current.selectedIndex].value;
+        var parentNode = current.parentNode;
+        parentNode.replaceChild(newNode, current);
+        i--;
 
-	//list.insertBefore(newElement,list.firstElementChild);
-
-	var replaceElement = document.createElement('div');
-	newElement.style.cssText = "width:200px;";
-
-	div.replaceChild(replaceElement,newElement);
-
-	//list.removeChild(newElement);
-
-	console.log(newElement);
-
-}());
+        newNode.innerText           = nodeText;
+        newNode.className           = 'tableBody';
+        newNode.style.verticalAlign = 'top';
+    }
+}();
 
 </script>
