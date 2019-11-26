@@ -69,3 +69,38 @@
 
 
 <!-- This is The Header Animation -->
+
+
+<!-- cover story --->
+<script type="text/javascript">
+	
+(function(){
+	'use strict';
+
+	//var newElement= document.createElement('li');
+	//newElement.textContent = 'I am a new Element';
+
+	var div = document.getElement('homepage');
+
+  window.onresize = function() {
+  if (window.innerWidth >= 1000) {
+
+	
+	//list.appendChild(newElement);
+
+	//list.insertBefore(newElement,list.firstElementChild);
+
+	var replaceElement = document.createElement('div');
+	replaceElement.textcontent = 'I am replacing you';
+
+	div.replaceChild(replaceElement,newElement);
+
+	//list.removeChild(newElement);
+
+	console.log(newElement);
+
+	}	
+
+}());
+
+</script>
