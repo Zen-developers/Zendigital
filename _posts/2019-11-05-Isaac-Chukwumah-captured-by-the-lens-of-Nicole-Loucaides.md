@@ -1,8 +1,8 @@
 ---
 layout: post
 byline: The Zen's very own photographer Nicole Loucaides captured one of the last shots of Isaac Chukwumah.
-title:  Isaac Chukwumah captured by the lens of Nicole Loucaides
-image: assets/img/zen-meets-TP.JPG&0.9999472156241751xw%3A1xh%3Bcenter%2Ccenter&resize=750%3A*&output-quality=55
+title:  My day with the streetwear creative - T
+image: assets/img/zen-meets-Thapelo.JPG&0.9999472156241751xw%3A1xh%3Bcenter%2Ccenter&resize=750%3A*&output-quality=55
 topic: fashion
 ---
 
