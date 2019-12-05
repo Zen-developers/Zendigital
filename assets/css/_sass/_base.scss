@@ -879,23 +879,6 @@ html[lang=el] * {
     margin: auto
 }
 
-@media only screen and (min-width: 1000px) {
-    .hero .hero__content:before {
-        content:"";
-        height: 120px;
-        width: 190px;
-        display: block;
-        margin: auto;
-        position: relative;
-        top: -70px;
-        background-image: url(https://vice-web-statics-cdn.vice.com/logos/hero-logo-white.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg)
-    }
-}
-
 .hero .hero__content__dek {
     max-width: 700px;
     width: 100%;
